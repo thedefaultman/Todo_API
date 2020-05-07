@@ -17,6 +17,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use('/api/todos', todoRoutes)
 
 
+//this is the local server
 app.listen(3000, function () {  
     console.log("APP IS RUNNING ON PORT 3000");
 })
