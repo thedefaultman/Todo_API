@@ -5,7 +5,7 @@ let express = require('express'),
 let todoRoutes = require('./routes/todos')
 
 app.get('/', function (req, res) {  
-    res.send("HELLO FROM THE ROUTE ROUTE")
+    res.sendFile("index.html")
 })
 
 
